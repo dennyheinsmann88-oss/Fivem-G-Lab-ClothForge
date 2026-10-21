@@ -1,0 +1,126 @@
+{
+ "opt_small.ytd": {
+  "0": [
+   {
+    "name": "tiny_s",
+    "width": 64,
+    "height": 64,
+    "format": 827611204,
+    "levels": 5,
+    "stride": 32,
+    "pixels_sha1": "9cd1497c04f532ab5dd6033a67f10eaef755bb49"
+   },
+   {
+    "name": "jbib_n",
+    "width": 256,
+    "height": 128,
+    "format": 894720068,
+    "levels": 6,
+    "stride": 256,
+    "pixels_sha1": "c64c52f773fa19f44041abf05956773d2145f10e"
+   },
+   {
+    "name": "jbib_diff_000_a_uni",
+    "width": 256,
+    "height": 256,
+    "format": 827611204,
+    "levels": 7,
+    "stride": 128,
+    "pixels_sha1": "a65586012db034ccdf91cf572a5bcf1dd5469706"
+   }
+  ],
+  "1": [
+   {
+    "name": "tiny_s",
+    "width": 64,
+    "height": 64,
+    "format": 827611204,
+    "levels": 5,
+    "stride": 32,
+    "pixels_sha1": "a19927b76bf1cc4caea66a874d80407b78e67fb2"
+   },
+   {
+    "name": "jbib_n",
+    "width": 256,
+    "height": 128,
+    "format": 894720068,
+    "levels": 6,
+    "stride": 256,
+    "pixels_sha1": "2c824d114bca6b21e979e74da62de92d61925f46"
+   },
+   {
+    "name": "jbib_diff_000_a_uni",
+    "width": 256,
+    "height": 256,
+    "format": 827611204,
+    "levels": 7,
+    "stride": 128,
+    "pixels_sha1": "b3bb29d15acb15dc07dd3a4fb5b82df1e5e75fe2"
+   }
+  ],
+  "2": [
+   {
+    "name": "tiny_s",
+    "width": 64,
+    "height": 64,
+    "format": 827611204,
+    "levels": 5,
+    "stride": 32,
+    "pixels_sha1": "d81cfc84c59f63659f97441105bdedabef7657a4"
+   },
+   {
+    "name": "jbib_n",
+    "width": 256,
+    "height": 128,
+    "format": 894720068,
+    "levels": 6,
+    "stride": 256,
+    "pixels_sha1": "e70d044b89dd1361f4899efca86b1131cfe16ed0"
+   },
+   {
+    "name": "jbib_diff_000_a_uni",
+    "width": 256,
+    "height": 256,
+    "format": 827611204,
+    "levels": 7,
+    "stride": 128,
+    "pixels_sha1": "ea48cae2f6709ba108b775e6e33e688d3332d017"
+   }
+  ]
+ },
+ "opt_emb.ydd": {
+  "0": [
+   {
+    "name": "emb_n",
+    "width": 256,
+    "height": 256,
+    "format": 894720068,
+    "levels": 7,
+    "stride": 256,
+    "pixels_sha1": "97ea5d30dff7df990b4f66ab37dbe008c827d723"
+   }
+  ],
+  "1": [
+   {
+    "name": "emb_n",
+    "width": 256,
+    "height": 256,
+    "format": 894720068,
+    "levels": 7,
+    "stride": 256,
+    "pixels_sha1": "99d83a87d3e7609bd60139659e2e61398d1b2549"
+   }
+  ],
+  "2": [
+   {
+    "name": "emb_n",
+    "width": 256,
+    "height": 256,
+    "format": 894720068,
+    "levels": 7,
+    "stride": 256,
+    "pixels_sha1": "d8b092df2ab3137bc1212f0336e60a7d2e150ea8"
+   }
+  ]
+ }
+}

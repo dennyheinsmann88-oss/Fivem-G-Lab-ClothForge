@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClothTool Vorschau</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+</head>
+<body>
+  <aside id="panel">
+    <header>
+      <h1>Kleidungs-Vorschau</h1>
+      <div class="gender" role="group" aria-label="Geschlecht">
+        <button data-gender="f" class="active">Weiblich</button>
+        <button data-gender="m">Männlich</button>
+      </div>
+    </header>
+    <section>
+      <h2>Am Charakter</h2>
+      <p class="keys">Mausrad über der Auswahl blättert durch die Teile bzw. Texturen.
+        Tastatur: <kbd>↑</kbd><kbd>↓</kbd> Teil, <kbd>←</kbd><kbd>→</kbd> Textur, <kbd>Bild↑</kbd><kbd>Bild↓</kbd> Slot,
+        <kbd>Entf</kbd> Teil löschen, <kbd>Strg</kbd>+<kbd>Z</kbd> rückgängig.</p>
+      <div id="slots"></div>
+      <div class="actions">
+        <div id="actionTarget"></div>
+        <div class="buttons">
+          <button id="delPart" type="button" title="Entf">Teil löschen</button>
+          <button id="delTex" type="button" title="Umschalt+Entf">Textur löschen</button>
+          <button id="undo" type="button" title="Strg+Z" disabled>Rückgängig</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Teile im Ordner <span id="count"></span></h2>
+      <input id="filter" type="search" placeholder="Suchen (z.B. jbib, 003, glab)">
+      <ul id="list"></ul>
+    </section>
+    <p class="hint">Props (Hüte, Brillen …) werden in einer späteren Version am Kopf platziert.</p>
+  </aside>
+  <main>
+    <canvas id="view"></canvas>
+    <div id="status"></div>
+    <div id="info"></div>
+    <div id="now"></div>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
